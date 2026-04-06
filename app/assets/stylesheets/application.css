@@ -8,3 +8,36 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  margin: 4px;
+  font-weight: lighter;
+}
+
+a{
+  font-size: smaller;
+  text-decoration: none;
+  color: rgb(71, 140, 204);
+}
+
+.btn {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.message-card {
+  margin: 16px;
+  padding: 6px;
+  padding-left: 16px;
+  border: 0px;
+  border-left: 4px solid rgb(222, 222, 222);
+  border-radius: 0px;
+  font-size: 16px;
+}
+
+#answer-card {
+  background-color:rgb(255, 255, 224)
+}
